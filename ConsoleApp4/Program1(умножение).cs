@@ -22,6 +22,8 @@ namespace ConsoleApp4
             }
 
             Console.WriteLine();
+
+            //Переходим к сортировке массива
             for(int k = 1; k < symb.Length;k++)
             {
                 for(int j = 0;j< symb.Length - k; j++)
